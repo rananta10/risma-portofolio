@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Risma Ananta Maulida — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- ===== CURSOR ===== -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<!-- ===== NAV ===== -->
+<nav class="nav" id="navbar">
+  <div class="nav-logo">RAM<span class="dot">.</span></div>
+  <div class="nav-links">
+    <a href="#about"   data-i18n="nav.about">About</a>
+    <a href="#skills"  data-i18n="nav.skills">Skills</a>
+    <a href="#experience" data-i18n="nav.experience">Experience</a>
+    <a href="#portfolio"  data-i18n="nav.portfolio">Portfolio</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact"    data-i18n="nav.contact">Contact</a>
+  </div>
+  <div class="nav-right">
+    <button class="lang-toggle" id="langToggle">
+      <span class="lang-en active">EN</span>
+      <span class="divider">|</span>
+      <span class="lang-id">ID</span>
+    </button>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" data-i18n="nav.about">About</a>
+  <a href="#skills" data-i18n="nav.skills">Skills</a>
+  <a href="#experience" data-i18n="nav.experience">Experience</a>
+  <a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a>
+  <a href="#certificates">Certificates</a>
+  <a href="#contact" data-i18n="nav.contact">Contact</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge" data-i18n="hero.badge">Information Systems · Universitas Pamulang</div>
+    <h1 class="hero-name">
+      <span class="line">Risma</span>
+      <span class="line accent">Ananta</span>
+      <span class="line">Maulida</span>
+    </h1>
+    <p class="hero-tagline" data-i18n="hero.tagline">System Analyst · Web Developer · Problem Solver</p>
+    <div class="hero-chips">
+      <span class="chip">GPA 3.89/4.00 </span>
+      <span class="chip">System Analyst 🔍</span>
+      <span class="chip">Web Admin ⚡</span>
+    </div>
+    <div class="hero-cta">
+      <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Let's Connect</a>
+      <a href="#portfolio" class="btn btn-ghost" data-i18n="hero.cta2">See My Work</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span data-i18n="hero.scroll">Scroll</span>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="section-label" data-i18n="about.label">About Me</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2 class="section-title" data-i18n="about.title">Turning Ideas<br>Into <em>Systems</em></h2>
+        <p data-i18n="about.desc1">Final-year Information Systems student with hands-on experience in system analysis, website administration, and administrative coordination under government-level programs.</p>
+        <p data-i18n="about.desc2">Strong communicator, analytical thinker, and team player — passionate about continuous learning, problem-solving, and building technology that makes a real-world impact.</p>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num">3.89</span><span class="stat-label" data-i18n="about.stat1">GPA</span></div>
+          <div class="stat"><span class="stat-num">3+</span><span class="stat-label" data-i18n="about.stat2">Experiences</span></div>
+          <div class="stat"><span class="stat-num">2</span><span class="stat-label" data-i18n="about.stat3">Competitions</span></div>
+        </div>
+      </div>
+      <div class="about-card-wrap">
+        <div class="about-card">
+          <div class="about-card-header">
+            <div class="avatar-ring">
+              <div class="avatar-placeholder">RAM</div>
+            </div>
+            <div>
+              <div class="about-name">Risma Ananta Maulida</div>
+              <div class="about-role" data-i18n="about.role">Information Systems Student</div>
+            </div>
+          </div>
+          <div class="about-info-list">
+            <div class="info-item"><span class="info-icon">📍</span><span>Tangerang Regency, Indonesia</span></div>
+            <div class="info-item"><span class="info-icon">📧</span><span>anantamaulidar@gmail.com</span></div>
+            <div class="info-item"><span class="info-icon">📱</span><span>+62 812 8260 0323</span></div>
+            <div class="info-item"><span class="info-icon">🎓</span><span>Universitas Pamulang</span></div>
+          </div>
+          <a href="mailto:anantamaulidar@gmail.com" class="btn btn-primary btn-full" data-i18n="about.hire">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="section skills" id="skills">
+  <div class="container">
+    <div class="section-label" data-i18n="skills.label">What I Know</div>
+    <h2 class="section-title" data-i18n="skills.title">Skills &amp;<br><em>Expertise</em></h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <h3 data-i18n="skills.web.title">Web Development</h3>
+        <p data-i18n="skills.web.desc">WordPress, CMS, HTML, PHP, basic SEO, hosting management & online portfolio setup.</p>
+        <div class="skill-tags">
+          <span>WordPress</span><span>PHP</span><span>HTML</span><span>CMS</span><span>SEO</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🐍</div>
+        <h3 data-i18n="skills.data.title">Data & Programming</h3>
+        <p data-i18n="skills.data.desc">Python (Pandas, NumPy) for data processing and analysis. Also fluent in Java and C.</p>
+        <div class="skill-tags">
+          <span>Python</span><span>Pandas</span><span>NumPy</span><span>Java</span><span>C</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">📊</div>
+        <h3 data-i18n="skills.analysis.title">System Analysis</h3>
+        <p data-i18n="skills.analysis.desc">Business process analysis, requirements specification, user–developer liaison, and system documentation.</p>
+        <div class="skill-tags">
+          <span>BPA</span><span>SRS</span><span>Documentation</span><span>Liaising</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🛠️</div>
+        <h3 data-i18n="skills.tools.title">Tools & Collaboration</h3>
+        <p data-i18n="skills.tools.desc">Google Workspace, Trello, VS Code, XAMPP/MySQL for project management and development workflows.</p>
+        <div class="skill-tags">
+          <span>Google Workspace</span><span>Trello</span><span>VS Code</span><span>MySQL</span>
+        </div>
+      </div>
+      <div class="skill-card soft-card">
+        <h3 data-i18n="skills.soft.title">Soft Skills</h3>
+        <div class="soft-pills">
+          <span data-i18n="soft.teamwork">Teamwork</span>
+          <span data-i18n="soft.time">Time Management</span>
+          <span data-i18n="soft.problem">Problem Solving</span>
+          <span data-i18n="soft.coord">Team Coordination</span>
+          <span data-i18n="soft.speak">Public Speaking</span>
+          <span data-i18n="soft.detail">Attention to Detail</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section class="section experience" id="experience">
+  <div class="container">
+    <div class="section-label" data-i18n="exp.label">Journey</div>
+    <h2 class="section-title" data-i18n="exp.title">Experience &amp;<br><em>Education</em></h2>
+    <div class="timeline">
+      <div class="timeline-item" data-type="work">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="tl-meta">
+            <span class="tl-year">2025</span>
+            <span class="tl-type work" data-i18n="tl.work">Work</span>
+          </div>
+          <h3 data-i18n="exp.sisip.title">System Analyst — Ministry of Tourism</h3>
+          <p class="tl-org">SISIP System Development Project</p>
+          <p data-i18n="exp.sisip.desc">Analyzed system requirements and business processes, prepared requirement specifications, and acted as liaison between users and dev teams. Handled system documentation and presentations.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-type="work">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="tl-meta">
+            <span class="tl-year">2025</span>
+            <span class="tl-type work" data-i18n="tl.work">Work</span>
+          </div>
+          <h3 data-i18n="exp.webadmin.title">Website Administrator</h3>
+          <p class="tl-org">Universitas Pamulang — Faculty of Computer Science</p>
+          <p data-i18n="exp.webadmin.desc">Selected through a competitive process to manage the faculty website. Handled content, themes, plugins, and SEO optimization.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-type="work">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="tl-meta">
+            <span class="tl-year">2024</span>
+            <span class="tl-type work" data-i18n="tl.work">Work</span>
+          </div>
+          <h3 data-i18n="exp.km.title">Kampus Mengajar — Field Secretary</h3>
+          <p class="tl-org">MBKM Program — Angkatan 7</p>
+          <p data-i18n="exp.km.desc">Served as field secretary for a 4-month teaching assignment. Managed administrative coordination, communication, and creative teaching strategies to improve student literacy and numeracy.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-type="edu">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="tl-meta">
+            <span class="tl-year">2022–Now</span>
+            <span class="tl-type edu" data-i18n="tl.edu">Education</span>
+          </div>
+          <h3 data-i18n="exp.univ.title">S1 Sistem Informasi</h3>
+          <p class="tl-org">Universitas Pamulang</p>
+          <p data-i18n="exp.univ.desc">Currently a final-year student with GPA 3.89/4.00. Experienced in web projects, IoT competitions, and government program collaborations.</p>
+          <div class="tl-badge">GPA 3.89 / 4.00 🏆</div>
+        </div>
+      </div>
+      <div class="timeline-item" data-type="edu">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="tl-meta">
+            <span class="tl-year">2018–2021</span>
+            <span class="tl-type edu" data-i18n="tl.edu">Education</span>
+          </div>
+          <h3 data-i18n="exp.smk.title">Computer & Network Engineering</h3>
+          <p class="tl-org">SMK Maha Karya Cikupa</p>
+          <p data-i18n="exp.smk.desc">Graduated in Computer and Network Engineering. Gained experience in production environments focusing on inventory and barcode systems.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTFOLIO ===== -->
+<section class="section portfolio" id="portfolio">
+  <div class="container">
+    <div class="section-label" data-i18n="port.label">Projects & Achievements</div>
+    <h2 class="section-title" data-i18n="port.title">Portfolio<br><em>Highlights</em></h2>
+    <div class="portfolio-grid">
+      <div class="port-card featured">
+        <div class="port-badge" data-i18n="port.feat">Featured</div>
+        <div class="port-icon">🏠</div>
+        <div class="port-meta">
+          <span class="port-tag">IoT</span>
+          <span class="port-tag">Firebase</span>
+          <span class="port-tag">Smart Home</span>
+        </div>
+        <h3 data-i18n="port.smarthome.title">Smart Home IoT System</h3>
+        <p data-i18n="port.smarthome.desc">Firebase-based smart home system to improve household energy efficiency. Developed using PXP method. Finalist at Bappelitbangda Teknologi Tepat Guna XII Competition, South Tangerang 2024.</p>
+        <div class="port-award">🥈 <span data-i18n="port.finalist">Finalist — Bappelitbangda South Tangerang 2024</span></div>
+      </div>
+      <div class="port-card">
+        <div class="port-icon">🎓</div>
+        <div class="port-meta">
+          <span class="port-tag">MBKM</span>
+          <span class="port-tag">Education</span>
+        </div>
+        <h3 data-i18n="port.km.title">Kampus Mengajar Program</h3>
+        <p data-i18n="port.km.desc">Selected participant of Kampus Mengajar Angkatan 7 (Feb–Jun 2024). Served as field secretary, improving literacy and numeracy through creative teaching approaches.</p>
+        <div class="port-award">✅ <span data-i18n="port.cert">Certified — LPDP / Kemendikbud 2024</span></div>
+      </div>
+      <div class="port-card">
+        <div class="port-icon">🏛️</div>
+        <div class="port-meta">
+          <span class="port-tag">Government</span>
+          <span class="port-tag">System Analysis</span>
+        </div>
+        <h3 data-i18n="port.sisip.title">SISIP — Ministry of Tourism</h3>
+        <p data-i18n="port.sisip.desc">System Analyst for SISIP information system development. Bridged user needs and development teams through requirement engineering and documentation.</p>
+        <div class="port-award">🔍 <span data-i18n="port.gov">Government Project 2025</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATES ===== -->
+<section class="section certificates" id="certificates">
+  <div class="container">
+    <div class="section-label">Credentials</div>
+    <h2 class="section-title">Certificates &amp;<br><em>Achievements</em></h2>
+    <div class="cert-grid">
+
+      <!-- CARD 1: Kampus Mengajar -->
+      <!-- Ganti "cert-kampus-mengajar.jpeg" dengan nama file foto sertifikatmu -->
+      <div class="cert-card" onclick="openLightbox('cert-km')">
+        <div class="cert-img-wrap">
+          <img src="assets/certificates/cert-kampus-mengajar.jpeg" alt="Sertifikat Kampus Mengajar" class="cert-img" />
+          <div class="cert-overlay"><span class="cert-view-btn">🔍 Lihat</span></div>
+        </div>
+        <div class="cert-info">
+          <span class="cert-tag">MBKM · 2024</span>
+          <h4>Kampus Mengajar Angkatan 7</h4>
+          <p>Certified by LPDP / Kemendikbud</p>
+        </div>
+      </div>
+
+      <!-- CARD 2: Bappelitbangda -->
+      <!-- Ganti "cert-bappelitbangda.jpeg" dengan nama file foto sertifikatmu -->
+      <div class="cert-card" onclick="openLightbox('cert-iot')">
+        <div class="cert-img-wrap">
+          <img src="assets/certificates/cert-bappelitbangda.jpeg" alt="Piagam Bappelitbangda" class="cert-img" />
+          <div class="cert-overlay"><span class="cert-view-btn">🔍 Lihat</span></div>
+        </div>
+        <div class="cert-info">
+          <span class="cert-tag">Competition · 2024</span>
+          <h4>Finalis Teknologi Tepat Guna XII</h4>
+          <p>Piagam — Bappelitbangda South Tangerang</p>
+        </div>
+      </div>
+
+      <!-- CARD 3: Web Admin -->
+      <!-- Ganti "cert-webadmin.jpeg" dengan nama file foto sertifikatmu -->
+      <div class="cert-card" onclick="openLightbox('cert-webadmin')">
+        <div class="cert-img-wrap">
+          <img src="assets/certificates/cert-webadmin.jpeg" alt="Sertifikat Web Admin" class="cert-img" />
+          <div class="cert-overlay"><span class="cert-view-btn">🔍 Lihat</span></div>
+        </div>
+        <div class="cert-info">
+          <span class="cert-tag">Web Admin · 2025</span>
+          <h4>Website Administrator</h4>
+          <p>Universitas Pamulang — Fak. Ilmu Komputer</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <div class="lightbox-inner" onclick="event.stopPropagation()">
+    <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+    <img src="" alt="" class="lightbox-img" id="lightboxImg" />
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+</div>
+
+<!-- ===== CONTACT ===== -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="contact-left">
+        <div class="section-label" data-i18n="contact.label">Get In Touch</div>
+        <h2 class="section-title" data-i18n="contact.title">Let's Build<br><em>Something Great</em></h2>
+        <p data-i18n="contact.desc">Open to internship, job opportunities, collaborations, or just a good conversation about tech.</p>
+        <div class="contact-links">
+          <a href="mailto:anantamaulidar@gmail.com" class="contact-link">
+            <span class="cl-icon">📧</span>
+            <div><span class="cl-label" data-i18n="contact.email">Email</span><span class="cl-val">anantamaulidar@gmail.com</span></div>
+          </a>
+          <a href="https://wa.me/6281282600323" class="contact-link" target="_blank">
+            <span class="cl-icon">💬</span>
+            <div><span class="cl-label">WhatsApp</span><span class="cl-val">+62 812 8260 0323</span></div>
+          </a>
+          <a href="https://instagram.com/ra.ananta.m" class="contact-link" target="_blank">
+            <span class="cl-icon">📸</span>
+            <div><span class="cl-label">Instagram</span><span class="cl-val">@ra.ananta.m</span></div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <div class="contact-card">
+          <p class="contact-quote" data-i18n="contact.quote">"Passionate about continuous learning and building technology that creates real impact."</p>
+          <div class="contact-status">
+            <span class="status-dot"></span>
+            <span data-i18n="contact.status">Available for opportunities</span>
+          </div>
+          <a href="mailto:anantamaulidar@gmail.com" class="btn btn-primary btn-full" data-i18n="contact.cta">Send a Message</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <span class="footer-logo">RAM<span class="dot">.</span></span>
+      <p class="footer-copy">© 2026 Risma Ananta Maulida.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+<script>
+const certData = {
+  'cert-km': {
+    src: 'assets/certificates/cert-kampus-mengajar.jpeg',
+    caption: 'Kampus Mengajar Angkatan 7 — LPDP / Kemendikbud 2024'
+  },
+  'cert-iot': {
+    src: 'assets/certificates/cert-bappelitbangda.jpeg',
+    caption: 'Finalis Teknologi Tepat Guna XII — Bappelitbangda South Tangerang 2024'
+  },
+  'cert-webadmin': {
+    src: 'assets/certificates/cert-webadmin.jpeg',
+    caption: 'Website Administrator — Universitas Pamulang, Fakultas Ilmu Komputer 2025'
+  }
+};
+
+function openLightbox(id) {
+  const data = certData[id];
+  if (!data) return;
+  document.getElementById('lightboxImg').src = data.src;
+  document.getElementById('lightboxCaption').textContent = data.caption;
+  document.getElementById('lightbox').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeLightbox();
+});
+</script>
+</body>
+</html>
