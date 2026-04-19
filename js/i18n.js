@@ -8,6 +8,7 @@ const translations = {
     "nav.skills":     "Skills",
     "nav.experience": "Experience",
     "nav.portfolio":  "Portfolio",
+    "nav.certificates": "Certificates",
     "nav.contact":    "Contact",
 
     "hero.badge":     "Information Systems · Universitas Pamulang",
@@ -90,6 +91,7 @@ const translations = {
     "nav.skills":     "Keahlian",
     "nav.experience": "Pengalaman",
     "nav.portfolio":  "Portofolio",
+    "nav.certificates": "Sertifikat",
     "nav.contact":    "Kontak",
 
     "hero.badge":     "Sistem Informasi · Universitas Pamulang",
